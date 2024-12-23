@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Ultimate Dark Background Layers */
+  --background: #030303; /* Absolute black with a subtle lift */
+  --background-foreground: #0a0a0a; /* Slightly lighter than pure black */
+  --background-muted: #111111; /* Deep, dark muted tone */
+  --background-subtle: #181818; /* Subtle background depth for layering */
+
+  /* Deepened Foreground Tones */
+  --foreground: #c8c8ca; /* Softer, dimmed neutral white */
+  --foreground-muted: #737377; /* Muted gray with less brightness */
+  --foreground-subtle: #4a4a4e; /* Deep, low-contrast gray for subtle text */
+
+  /* Even Richer Dark Mode Brand Colors */
+  --primary: #2a437c; /* Deeper royal navy */
+  --primary-foreground: #e6e6e9;
+  --primary-hover: #202f5d;
+  --primary-active: #172343;
+
+  --secondary: #4a4aa3; /* Dark royal purple */
+  --secondary-foreground: #e0e0e3;
+  --secondary-hover: #3a3a7d;
+  --secondary-active: #2b2b5d;
+
+  /* State Colors with Maximum Depth */
+  --accent: #177760; /* Dark teal for accents */
+  --accent-foreground: #e2e2e5;
+
+  --success: #155c33; /* Forest green with richness */
+  --success-foreground: #d9d9dc;
+
+  --warning: #94620e; /* Antique gold for warning */
+  --warning-foreground: #f3f3f5;
+
+  --destructive: #7a1c18; /* Dark blood red */
+  --destructive-foreground: #f9f9fa;
+
+  --border: #232323; /* Subtle yet visible contrast for dark backgrounds */
+  --border-muted: #1e1e1e; /* Slightly less prominent for muted contexts */
+  --border-subtle: #141414; /* Almost blends in for subtle separation */
+
+  --divider: #1c1c1c; /* Consistent, but slightly lighter than border-muted */
+  --divider-subtle: #121212; /* Light enough for layering but minimal contrast */
+}
+
+/* Transition for Dark Mode */
+html {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

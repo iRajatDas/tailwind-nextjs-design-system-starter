@@ -1,0 +1,1 @@
+Hi, I love creating clean, intuitive interfaces that make complex things easy for users. With experience in React, TypeScript, and building responsive designs, I enjoy crafting smooth, engaging experiences and optimizing performance. This role feels like a great fit to apply my skills and contribute to meaningful, user-focused solutions.
